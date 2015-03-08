@@ -1,0 +1,6 @@
+C:\Users\Emre\Desktop\ASP_NET Examples\ValueofArrayVariable\ValueofArrayVariable\bin\Debug\ValueofArrayVariable.exe.config
+C:\Users\Emre\Desktop\ASP_NET Examples\ValueofArrayVariable\ValueofArrayVariable\bin\Debug\ValueofArrayVariable.exe
+C:\Users\Emre\Desktop\ASP_NET Examples\ValueofArrayVariable\ValueofArrayVariable\bin\Debug\ValueofArrayVariable.pdb
+C:\Users\Emre\Desktop\ASP_NET Examples\ValueofArrayVariable\ValueofArrayVariable\obj\Debug\ValueofArrayVariable.csprojResolveAssemblyReference.cache
+C:\Users\Emre\Desktop\ASP_NET Examples\ValueofArrayVariable\ValueofArrayVariable\obj\Debug\ValueofArrayVariable.exe
+C:\Users\Emre\Desktop\ASP_NET Examples\ValueofArrayVariable\ValueofArrayVariable\obj\Debug\ValueofArrayVariable.pdb
