@@ -23,32 +23,41 @@ namespace ValueofArrayVariable
                 dizi[i] = Convert.ToInt32(Console.ReadLine());
             }
 
-            Console.Write("Lütfen girilen dizinin kacinci elemanini görmek istediginizi söyleyiniz? : ");
+            Console.Write("Lütfen siralanmis dizinin kacinci elemanini görmek istediginizi söyleyiniz? : ");
             whichNum = int.Parse(Console.ReadLine());
 
             watch.Start(); // Sure baslatildi.
 
+            //Diziyi Bubble Sort algoritması ile sıralıyoruz.
+
+            for (int i = 0; i < dizi.Length - 1; i++)
+            {
+                for (int j = 1; j < dizi.Length - i; j++)
+                {
+                    if (dizi[j] < dizi[j - 1])
+                    {
+                        int gecici = dizi[j - 1];
+                        dizi[j - 1] = dizi[j];
+                        dizi[j] = gecici;
+                    }
+                }
+            }
+
 
             for (int j = 0; j < dizi.Length; j++)
             {
-                if (whichNum==j) // İstenilen deger ile index degeri eslesmesi kontrol ediliyor.
+                if (whichNum == j) // İstenilen deger ile index degeri eslesmesi kontrol ediliyor.
                 {
                     Console.WriteLine("Dizinini {0}. elemani = {1} 'dir", whichNum, dizi[j - 1]); // İstenilen dizi elemani ekrana yazildi.
-                 }    
-           }
+                }
+            }
 
             watch.Stop(); // Süre durduruldu.
-            
             TimeSpan timer = watch.Elapsed; // Süre değerlerine erişmek için timer değişkeni oluşturuldu.
-
             Console.Write("Programin calisma süresi: ");
-
-            string sonuc = String.Format("{0} sa :{1} dk :{2} sn :{3} ms ' dir.", timer.Hours, timer.Minutes, timer.Seconds, timer.TotalMilliseconds * 1000000);// Süre saat,dakika,saniye ve milisaniye olarak gösterildi
-
+            string sonuc = String.Format("{0} sa :{1} dk :{2} sn :{3} ms ' dir.", timer.Hours, timer.Minutes, timer.Seconds, timer.TotalMilliseconds * 1000000); // Süre saat,dakika,saniye ve milisaniye olarak gösterildi
             Console.Write(sonuc); // Ekrana sonuc yazdirildi.
-
             Console.ReadLine(); // Sistem sonucu bize anlık göstermesin diye ekranda enter a basana kadar bekleyebilmemiz icin bu satir yazildi.
-        
         }
     }
 }
