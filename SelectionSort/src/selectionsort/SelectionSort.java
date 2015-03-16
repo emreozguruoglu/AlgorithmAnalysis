@@ -19,15 +19,15 @@ public class SelectionSort {
      */
     public static void main(String[] args) {
         long startTime = System.currentTimeMillis();
-        int[] dizi = new int[50];
+        int[] dizi = new int[500];
         Random randomGenerator = new Random();
         int sayi = 0;
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 500; i++) {
             sayi = randomGenerator.nextInt(10000);
             dizi[i] = sayi;
         }
         selectionSort(dizi);
-        for (int i = 1; i < 50; i++) {
+        for (int i = 1; i < 500; i++) {
             System.out.println(dizi[i]);
         }
         long endTime = System.currentTimeMillis();
