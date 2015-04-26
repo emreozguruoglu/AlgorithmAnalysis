@@ -1,0 +1,6 @@
+C:\Users\Emre\Desktop\ASP_NET Examples\BSTSearch\BSTSearch\bin\Debug\BSTSearch.exe.config
+C:\Users\Emre\Desktop\ASP_NET Examples\BSTSearch\BSTSearch\bin\Debug\BSTSearch.exe
+C:\Users\Emre\Desktop\ASP_NET Examples\BSTSearch\BSTSearch\bin\Debug\BSTSearch.pdb
+C:\Users\Emre\Desktop\ASP_NET Examples\BSTSearch\BSTSearch\obj\Debug\BSTSearch.csprojResolveAssemblyReference.cache
+C:\Users\Emre\Desktop\ASP_NET Examples\BSTSearch\BSTSearch\obj\Debug\BSTSearch.exe
+C:\Users\Emre\Desktop\ASP_NET Examples\BSTSearch\BSTSearch\obj\Debug\BSTSearch.pdb
