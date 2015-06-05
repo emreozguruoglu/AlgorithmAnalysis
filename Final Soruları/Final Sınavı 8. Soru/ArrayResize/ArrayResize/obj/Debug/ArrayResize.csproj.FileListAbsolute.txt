@@ -1,0 +1,6 @@
+c:\users\emre\documents\visual studio 2013\Projects\ArrayResize\ArrayResize\bin\Debug\ArrayResize.exe.config
+c:\users\emre\documents\visual studio 2013\Projects\ArrayResize\ArrayResize\obj\Debug\ArrayResize.csprojResolveAssemblyReference.cache
+c:\users\emre\documents\visual studio 2013\Projects\ArrayResize\ArrayResize\bin\Debug\ArrayResize.exe
+c:\users\emre\documents\visual studio 2013\Projects\ArrayResize\ArrayResize\bin\Debug\ArrayResize.pdb
+c:\users\emre\documents\visual studio 2013\Projects\ArrayResize\ArrayResize\obj\Debug\ArrayResize.exe
+c:\users\emre\documents\visual studio 2013\Projects\ArrayResize\ArrayResize\obj\Debug\ArrayResize.pdb
